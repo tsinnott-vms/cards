@@ -7,4 +7,9 @@ public class App extends PApplet
         PApplet.main("App");
     }
 
+    public void settings()
+    {
+        size(800,600);
+    }
+
 }

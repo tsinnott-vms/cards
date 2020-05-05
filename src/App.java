@@ -8,3 +8,17 @@ public class App extends PApplet
     }
 
 }
+
+    public void settings()
+    {
+        size(800,600);
+    }
+
+    Rank r = new Rank ("Jack", 11);
+    Rank jack = new new Rank("Jack", 11);
+    Rank ace = new Rank ("Ace", 14);
+
+        if (ace.getValue() > jack.getValue())
+        {
+        //ace is greater
+        }
